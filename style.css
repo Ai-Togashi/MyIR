@@ -1,0 +1,162 @@
+body {
+  width:1400px;
+  margin: 0 auto;
+  background-color:rgb(253, 244, 231);
+}
+
+h1 {
+    font-size: 60px;
+    position: relative;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: cadetblue;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+    font-family: "Georgia";
+  }
+  
+h1:after {
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    border-width: 0 0 10px 10px;
+    border-style: solid;
+    border-color: #fff #fff #a8d4ff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+  
+h2 {
+    font-size: 45px;
+    color: green;
+    text-decoration: underline 3px yellowgreen;
+    position: relative;
+    line-height: 1.4;
+    -webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
+    font-family: "Georgia";
+}
+#title1 {
+  text-align: center; 
+}
+img.icon{
+  width: 230px; height: 300px; border-radius: 50%;
+  width: 230px; height: 300px; border-radius: 50%;
+}
+
+.profile {   
+  font-size: 15px;
+  color:rgb(144, 112, 70);
+  display: flex;
+  justify-content: center;
+}
+
+.profile div.profile-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 200px;
+}
+.profile div.profile-fav {
+  margin-left: 20px;
+}
+
+
+h3 {
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li::marker  {     
+  color: rgb(144, 112, 70); 
+  font-size: 20px;
+}
+li{
+  font-family:"Georgia";
+  color:rgb(93, 69, 39);  
+}
+p {
+  font-family: "Georgia";
+  color:rgb(93, 69, 39);  
+}
+
+.past {
+  border: 2px solid black; 
+  padding: 0px;          
+  border-radius: 10px;    
+  background-color:#f9f9f9 ; 
+  height:325px;
+  }
+
+.present {
+  border: 2px solid black; 
+  padding: 0px;          
+  border-radius: 10px;   
+  background-color: #f9f9f9;
+  height:325px;
+}
+
+.future {
+  border: 2px solid black; 
+  padding: 0px;          
+  border-radius: 10px;   
+  background-color: #f9f9f9; 
+  height:325px;/
+}
+
+section {
+  display: flex;
+}
+
+article {
+  padding: 20px;
+  margin: 18px;
+}
+
+article {
+  flex: 1;
+}
+article:nth-of-type(3) {
+  flex: 2;
+}
+article {
+  flex: 1 200px;
+}
+
+article:nth-of-type(3) {
+  flex: 2 0px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+section div:hover {
+  background-color: #d5e7f9;
+}
+section div:hover p {
+  color: orangered;
+  font-weight:bold ;
+
+}
+section div:hover ul li{
+  color: green;
+}
+
+div.bgcolorchange {
+  display: block;
+  position: fixed;
+  top: 150px;
+  margin-left: 1250px;
+  cursor: pointer;
+  text-align: center; 
+}
+div.bgcolorchange p {
+  border: aliceblue;
+  background-color:rgb(207, 178, 157);
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  font-family: "Georgia";
+}
